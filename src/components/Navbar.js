@@ -7,7 +7,7 @@ export default function Navbar(props) {
       <div></div>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          My-cart
+          ChkOut
         </a>
         <button
           className="navbar-toggler"
