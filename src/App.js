@@ -9,18 +9,7 @@ import AddItem from "./components/AddItem";
 function App() {
   //productList is array and price name quantity are the objects
   //to send the following data to the components we use the props
-  const products = [
-    {
-      price: 99999,
-      name: "IPhone 10S Max",
-      quantity: 0,
-    },
-    {
-      price: 9999,
-      name: "Redmi Note 10S Max",
-      quantity: 0,
-    },
-  ];
+  const products = [ ];
   let [productList, setProductList] = useState(products);
   let [totalAmount, setTotalAmount] = useState(0);
 
